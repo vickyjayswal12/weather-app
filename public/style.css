@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: aqua;
+    width: auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+section{
+   height:400px ;
+   width:auto ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 250px;
+    width: 190px;
+    background-color: bisque;
+}
+.bx
+{  
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: auto;
+    height: 40px;
+    background-color: aliceblue;
+}
+#temp{
+    font-size: 251%;
+}
+

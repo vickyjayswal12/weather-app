@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wheather</title>
+    <link href= "/public/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>
+          <form action="/temp" method="post">
+            <input type="search" name="city" id="" placeholder="city name" >
+            <input type="submit" value="search" formmathod="post"  formaction="/temp">
+          </form>
+    </header>
+
+    <section>
+         <div class="box">
+            <div id="img"> <img width="190px" src="/public/img/img1.jpg" alt=""></div>
+            <br>
+            
+            <div id="data">
+                <p id="city"></p>
+                city = <%= city_name %>
+                <br>
+                date = <span id="dt">wed | oct 23| 10:20pm</span>
+                <br>
+               <br>
+                <div class="bx">
+                <div id="temp" >
+                    <%= temp.main.temp %>F
+                </div>
+            </div>
+
+            </div>
+
+         </div>
+<script src="/public/index.js"></script>
+    </section>
+    
+</body>
+
+</html>
