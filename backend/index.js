@@ -47,6 +47,7 @@ app.post('/temp',(req,resp)=>
 
 
 
+const port=8000;
+const hostname='0.0.0.0';
 
-
-app.listen(8000);
+app.listen(port,hostname);
